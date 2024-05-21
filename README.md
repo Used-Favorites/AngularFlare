@@ -32,6 +32,9 @@ Para obter uma cópia local em funcionamento, siga estes passos simples:
    ng serve
    ```
 
+> [!WARNING]
+> Caso não dê erro ao executar o comando `ng server` utilize o comando `npx` ao inciar os comandos `ng se..` (etc)
+
 ## 📜 Scripts
 
 Aqui estão alguns scripts úteis que você pode executar:
