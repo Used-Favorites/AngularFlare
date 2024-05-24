@@ -29,7 +29,7 @@ Para obter uma cópia local em funcionamento, siga estes passos simples:
    ```
 3. **Execute o servidor de desenvolvimento**
    ```sh
-   ng serve
+   npx ng serve
    ```
 
 > [!WARNING]
