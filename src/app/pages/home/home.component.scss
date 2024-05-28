@@ -1,0 +1,41 @@
+.bg {
+  /* background:block */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  margin: 0 auto;
+
+  /* Blue/Normal */
+  background: #263238;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+  #text {
+    /* label:text */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: fit-content;
+    height: fit-content;
+
+    /* Blue/Normal */
+
+    color: #e0f4fc;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
