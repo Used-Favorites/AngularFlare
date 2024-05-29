@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "dev": "ng serve -o --host 0.0.0.0",
     "test": "ng test",
-    "serve:ssr:angularflare": "node dist/angularflare/server/server.mjs"
+    "serve:ssr:angularflare": "node dist/angularflare/server/server.mjs",
+    "ios:dev": "npm run build && npx cap add ios && npx cap run ios",
+    "android:dev": "npm run build && npx cap add android && npx cap run android"
   },
   "private": true,
   "dependencies": {

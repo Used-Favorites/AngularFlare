@@ -1,0 +1,7 @@
+{
+  "name": "angularflare",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
