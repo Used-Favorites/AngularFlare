@@ -1,3 +1,5 @@
+@import "../../../styles/variables.scss";
+
 .bg {
   /* background:block */
 
@@ -5,18 +7,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: 100%;
-
-  margin: 0 auto;
+  height: 75.6%;
+  justify-content: center;
+  gap: 3rem;
 
   /* Blue/Normal */
   background: #263238;
+  background-size: cover;
 
   /* Inside auto layout */
   flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 1 1;
   z-index: 0;
   #text {
     /* label:text */
@@ -31,11 +33,35 @@
 
     /* Blue/Normal */
 
-    color: #e0f4fc;
+    color: $light;
 
     /* Inside auto layout */
-    flex: none;
+    flex: 0 1;
     order: 1;
     flex-grow: 0;
   }
+}
+
+.button-selects {
+  /* Buttons Selects */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 18px;
+  gap: 3rem;
+  isolation: isolate;
+  height: fit-content;
+
+  margin: 0 auto;
+
+  /* Blue/Darker */
+  background: #0d1214;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1; // Fill remaining space
+  z-index: 1;
 }
